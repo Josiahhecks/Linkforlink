@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LinkForLink</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="default-avatar.png" alt="Profile" class="profile-pic" id="profilePic">
+            <h1 class="username" contenteditable="true">Your Name</h1>
+        </div>
+
+        <div class="links">
+            <!-- Only 4 links max -->
+            <div class="link-container">
+                <input type="text" class="link-name" placeholder="Link Name">
+                <input type="url" class="link-url" placeholder="https://">
+            </div>
+            <div class="link-container">
+                <input type="text" class="link-name" placeholder="Link Name">
+                <input type="url" class="link-url" placeholder="https://">
+            </div>
+            <div class="link-container">
+                <input type="text" class="link-name" placeholder="Link Name">
+                <input type="url" class="link-url" placeholder="https://">
+            </div>
+            <div class="link-container">
+                <input type="text" class="link-name" placeholder="Link Name">
+                <input type="url" class="link-url" placeholder="https://">
+            </div>
+        </div>
+
+        <button onclick="generateLinks()" class="generate-btn">Generate Links</button>
+    </div>
+</body>
+</html>
